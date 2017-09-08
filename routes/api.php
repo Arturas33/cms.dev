@@ -17,3 +17,4 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 Route::resource('/users', 'MAUsersController');
+Route::resource('/posts', 'MAPostController');
