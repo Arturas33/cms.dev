@@ -16,5 +16,13 @@ use Illuminate\Http\Request;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
-Route::resource('/users', 'MAUsersController');
-Route::resource('/posts', 'MAPostController');
+Route::post('/users/signin', 'MAUsersController@signin');
+
+Route::group(['middleware' => 'auth.jwt'], function (){
+
+    Route::resource('/users', 'MAUsersController');
+    Route::resource('/posts', 'MAPostController');
+
+});
+
+
