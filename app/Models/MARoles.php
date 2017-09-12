@@ -2,10 +2,8 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class MARoles extends CoreModel {
-
+class MARoles extends CoreModel
+{
     protected $table = 'ma_roles';
-
-	protected $fillable = ['id', 'name'];
-
+    protected $fillable = ['id', 'name'];
 }
