@@ -108,9 +108,9 @@ class MAUsersController extends Controller
      */
     public function destroy($id)
     {
-        MAUsers::find($id)->delete();
+       $user =  MAUsers::where('id', $id)->delete();
 
-        return response()->json(['success'=>'user deleted successfully'],200);
+        return response()->json(['success'=>$user],200);
     }
 
     public function signin(Request $request)
