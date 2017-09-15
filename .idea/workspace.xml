@@ -33,7 +33,7 @@
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MAUsersController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="510">
-                  <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+                  <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
                   <folding>
                     <element signature="e#40#63#0#PHP" expanded="true" />
                   </folding>
@@ -45,7 +45,7 @@
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MARolesController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="368">
-                  <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+                  <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
                   <folding>
                     <element signature="e#39#62#0#PHP" expanded="true" />
                   </folding>
@@ -208,12 +208,12 @@
       <workItem from="1505371715365" duration="1095000" />
       <workItem from="1505384342952" duration="354000" />
       <workItem from="1505389598080" duration="613000" />
-      <workItem from="1505456194800" duration="5264000" />
+      <workItem from="1505456194800" duration="5860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50348000" />
+    <option name="totallyTimeSpent" value="50944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -612,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MARolesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
           <folding>
             <element signature="e#39#62#0#PHP" expanded="true" />
           </folding>
@@ -622,7 +622,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MAUsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
           <folding>
             <element signature="e#40#63#0#PHP" expanded="true" />
           </folding>
