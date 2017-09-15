@@ -94,7 +94,7 @@ class MAPostsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(Request $request,$id)
+	public function update(Request $request, $id)
 	{
         $post =  MAPosts::find($id);
         $post ->title = $request->title;
